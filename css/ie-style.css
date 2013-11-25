@@ -1,0 +1,40 @@
+body,h1,h2,h3,h4,h5,h6,.main-navigation ul, .entry-title {
+	font-family: times, serif;
+}
+h2,h3,h4,h5,h6 { font-weight:bold; }
+article {z-index: 1;}
+.topleftornament {
+	background-image:url(images/corner-ornament.gif);
+	top:-48px;
+	left:-48px;	
+	}
+.toprightornament{
+	background-image:url(images/corner-ornament.gif);
+	top:-48px;
+	right:-48px;
+	}
+.bottomleftornament {
+	background-image:url(images/corner-ornament.gif);
+	bottom:-48px;
+	left:-48px;	
+	}
+.bottomrightornament {
+	background-image:url(images/corner-ornament.gif);
+	bottom:-48px;
+	right:-48px;	
+	}
+.main-navigation a {
+	padding: 7px 14px 7px 14px;
+	}
+div.wp-caption, .widget-title, .main-navigation a {
+	background-color: #cdd9cf;
+}
+.main-navigation a:hover {
+	background-color:#fff;
+}
+.main-navigation ul ul { top:30px; }
+.post, .brick { z-index:1; }
+
+.main-navigation { min-height:30px; }
+.topleftspot, .toprightspot, .bottomleftspot, .bottomrightspot{ display:none; }
+ul.menu, ul.menu li, .main-navigation ul ul a, .main-navigation ul ul li {position: relative; z-index: 9999;}
